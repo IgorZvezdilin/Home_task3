@@ -12,7 +12,7 @@ public class OperationsWithArray {
         System.out.println("The maximal value is " + maxValue);
     }
 
-    public static void RearrangeRowsInArray(int changingRows1, int changingRows2) {
+    public void RearrangeRowsInArray(int changingRows1, int changingRows2) {
         int[][] MatrixOfNumbers = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}, {16, 17, 18, 19, 20}, {21, 22, 23, 24, 25}};
         int helpingChangeVariable;
         System.out.println(Arrays.deepToString(MatrixOfNumbers));
